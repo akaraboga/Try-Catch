@@ -17,6 +17,8 @@ namespace Try_Catch
             {
                 Console.WriteLine("Bir sayi giriniz");
                 int sayi = Convert.ToInt32(Console.ReadLine());
+                int karesi = sayi * sayi;
+                 Console.WriteLine("Girdiğiniz sayinin karesi : {0}",karesi);
             }catch (Exception)
             {
                 Console.WriteLine("Gecersiz karakter girdiniz");
